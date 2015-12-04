@@ -11,7 +11,7 @@ Welcome to your Node.js project on Cloud9 IDE!
 
 ## Running the graphql server
 
-`run npm install´
+    $ run npm install
 
 1) Open `grapqlh_starter.js` and start the app by clicking on the "Run" button in the top menu.
 

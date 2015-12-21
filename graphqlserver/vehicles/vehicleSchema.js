@@ -56,11 +56,11 @@ let VehicleSchema = new GraphQLSchema({
   query: new GraphQLObjectType({
     name: 'Query',
     fields: {
-      user: {
+      getVehicle: {
         type: vehicleType,
         description: "The user",
         args: {
-          id: { type: GraphQLString }
+          id: { type: GraphQLInt }
         },
         resolve: function (_, args) {
           return vehicles[args.id];

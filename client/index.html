@@ -10,7 +10,7 @@
         padding-top: 60px;
       }
     </style>
-    <script>
+    <!-- <script>
       function ChatController($scope) {
         var socket = io.connect();
 
@@ -43,10 +43,56 @@
           socket.emit('identify', $scope.name);
         };
       }
+    </script> -->
+    <script type="text/javascript" src="/app/graphql_transport.js"></script>
+    <script>
+      function vehicleController($scope) {
+        $scope.vehicles = [];
+        var transport = new GraphQLTransport('/vehicleGraphql');
+        var vehiclePromise = transport.sendQuery('{allVehicles{name}}').
+        then(function(data){
+          //console.log('data.allVehicles '+data.allVehicles);
+          //console.log('data.allVehicles '+data.allVehicles[0].name);
+          
+          return data.allVehicles;
+        });
+        
+        applyVehicles(vehiclePromise);
+        
+        function applyVehicles(vehiclePromise){
+          vehiclePromise.then(function(vehicles) {
+            console.log('data.allVehicles '+vehicles[0].name);
+            $scope.vehicles = vehicles;
+           /* vehicles.forEach (function (vehicle){
+              $scope.vehicles.push({
+                name:vehicle.name
+              });
+            });*/
+            $scope.$apply();
+          })
+        };
+      }
     </script>
   </head>
   <body>
-    <div class="container" ng-controller="ChatController">
+    <div class="container" ng-controller="vehicleController">
+      
+      <div class="page-header">
+        <h1>Vehicles with graphql</h1>
+      </div>
+      <div class="row">
+        <div class="span3">
+          <ul class="nav nav-list well">
+            <li class="nav-header">Vehicles</li>
+            <li ng-repeat="vehicle in vehicles" ng-bind="vehicle.name">
+            </li>
+          </ul>
+        </div>
+        <div class="span9">
+          <p>details about a vehicle</p>
+       </div>
+      </div>
+    <!-- <div class="container" ng-controller="ChatController">
       <div class="navbar navbar-fixed-top navbar-inverse">
         <div class="navbar-inner">
           <div class="pull-right">
@@ -91,10 +137,12 @@
           </div>
         </div>
       </div>
-    </div>
-    <script src="/socket.io/socket.io.js"></script>
+    </div> -->
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/angular.min.js"></script>
+    
+    
   </body>
 </html>

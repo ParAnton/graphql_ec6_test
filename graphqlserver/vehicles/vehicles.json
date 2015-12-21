@@ -1,0 +1,814 @@
+[ 
+    {
+        "id": "1",
+        "name": "Volvo 345",
+        "position": {
+            "lat": 57.722318,
+            "lng": 11.956802,
+            "updateTime": 1440969171000
+        },
+        "onSelect": [
+            {
+                "type": "historicalPositions",
+                "data": {
+                    "vehicleInformationId": "1"
+                }
+            }
+        ],
+        "driver": {
+            "name": "John Silver",
+            "personInformationId": 1,
+            "activity": "Unknown_state",
+            "dtjActivity": "REPAIR"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Volvo 640",
+        "position": {
+            "lat": 57.725618,
+            "lng": 12.031646,
+            "updateTime": 1440969171000
+        },
+        "onSelect": [
+            {
+                "type": "historicalPositions",
+                "data": {
+                    "vehicleInformationId": "2"
+                }
+            }
+        ],
+        "driver": {
+            "name": "Squire Trelawney",
+            "personInformationId": 2,
+            "activity": "DRIVING",
+            "dtjActivity": "REPAIR"
+        }
+    },
+    {
+        "id": "3",
+        "name": "Dynafleet_EVO",
+        "settings": {
+            "vcgVehicleUnitId": 777778,
+            "addedDate": 1440690750000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": true
+        },
+        "driver": {
+            "name": "Jim Hawkins",
+            "personInformationId": 3,
+            "activity": "WORKING",
+            "dtjActivity": "REPAIR"
+        }
+    },
+    {
+        "id": "4",
+        "name": "Volvo 440",
+        "settings": {
+            "vcgVehicleUnitId": 777777,
+            "addedDate": 1440690750000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": true
+        },
+        "position": {
+            "lat": 57.725625,
+            "lng": 6,
+            "altitude": 0,
+            "heading": 90,
+            "updateTime": 1440679969000
+        },
+        "driver": {
+            "name": "Dr. Livsey",
+            "personInformationId": 4,
+            "activity": "WORKING",
+            "dtjActivity": "REPAIR"
+        }
+    },
+    {
+        "id": 3,
+        "name": "A 642126 Anniversery Very Long Vehicle Name That Can Go On Continously like Thiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiis 80 year", 
+        "settings": {
+            "vcgVehicleUnitId": 3,
+            "addedDate": 1309264186000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.694213,
+            "lng": 11.821123,
+            "altitude": 33,
+            "heading": 134,
+            "updateTime": 1302867141000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null
+        }
+    },
+    {
+        "id": 9,
+        "name": "A638381 FM39 DMX (VCE demo truck)",
+        "settings": {
+            "vcgVehicleUnitId": 9,
+            "addedDate": 1309271548000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 59.235691,
+            "lng": 15.144535,
+            "altitude": 0,
+            "heading": 187,
+            "updateTime": 1431936927000
+        },
+        "driver": {
+            "name": "Unknown-0000097753710000 A638381 FM39 DMX (VCE demo truck)",
+            "personInformationId": 1121,
+            "activity": "Driving",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 11,
+        "name": "A639111 FH111 DMX",
+        "settings": {
+            "vcgVehicleUnitId": 11,
+            "addedDate": 1309271664000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 60.409689,
+            "lng": 24.973386,
+            "altitude": 76,
+            "heading": 3,
+            "updateTime": 1440691580000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 16,
+        "name": "A653147 FH248 DMX",
+        "settings": {
+            "vcgVehicleUnitId": 16,
+            "addedDate": 1309271810000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 58.778907,
+            "lng": 5.832828,
+            "altitude": 0,
+            "heading": 336,
+            "updateTime": 1442813038000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 20,
+        "name": "A660747 FH-252 DMX",
+        "settings": {
+            "vcgVehicleUnitId": 20,
+            "addedDate": 1309271990000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.762408,
+            "lng": 11.993994,
+            "altitude": 0,
+            "heading": 9,
+            "updateTime": 1442318109000
+        },
+        "driver": {
+            "name": "Unknown-0000057408280001 A660747 FH-252 DMX",
+            "personInformationId": 9450,
+            "activity": "Driving",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 23,
+        "name": "A670227 FH-372 DMX",
+        "settings": {
+            "vcgVehicleUnitId": 23,
+            "addedDate": 1309272074000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.112794,
+            "lng": 14.634501,
+            "altitude": 0,
+            "heading": 173,
+            "updateTime": 1397192025000
+        },
+        "driver": {
+            "name": "Unknown-0000097437000000 A670227 FH-372 DMX",
+            "personInformationId": 8404,
+            "activity": "Driving",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 25,
+        "name": "A679287 FH485 DMX",
+        "settings": {
+            "vcgVehicleUnitId": 25,
+            "addedDate": 1309272141000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 58.080677,
+            "lng": 12.817493,
+            "altitude": 0,
+            "heading": 198,
+            "updateTime": 1352289343000
+        },
+        "driver": {
+            "name": "Unknown-0000049276010000 A679287 FH485 DMX",
+            "personInformationId": 4110,
+            "activity": "Driving",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 27,
+        "name": "A681907 FM-179",
+        "settings": {
+            "vcgVehicleUnitId": 27,
+            "addedDate": 1309272192000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 62.540295,
+            "lng": 15.750283,
+            "altitude": 0,
+            "heading": 0,
+            "updateTime": 1397084990000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 28,
+        "name": "A683334 FH-545",
+        "settings": {
+            "vcgVehicleUnitId": 28,
+            "addedDate": 1309272216000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 59.31425,
+            "lng": 14.094543,
+            "altitude": 56,
+            "heading": 0,
+            "updateTime": 1397098536000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 29,
+        "name": "A684354 FM-180",
+        "settings": {
+            "vcgVehicleUnitId": 29,
+            "addedDate": 1309272242000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.761983,
+            "lng": 14.175126,
+            "altitude": 0,
+            "heading": 321,
+            "updateTime": 1397108938000
+        },
+        "driver": {
+            "name": "Unknown-0000042894749001 A684354 FM-180",
+            "personInformationId": 576,
+            "activity": "Driving",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 30,
+        "name": "A685072 FH-513",
+        "settings": {
+            "vcgVehicleUnitId": 30,
+            "addedDate": 1309272267000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 59.438107,
+            "lng": 15.899531,
+            "altitude": 0,
+            "heading": 16,
+            "updateTime": 1344848879000
+        },
+        "driver": {
+            "name": "Unknown-0000039707010010 A685072 FH-513",
+            "personInformationId": 4765,
+            "activity": "Driving",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 32,
+        "name": "A688831 FH-602",
+        "settings": {
+            "vcgVehicleUnitId": 32,
+            "addedDate": 1309272319000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 59.079095,
+            "lng": 13.996498,
+            "altitude": 0,
+            "heading": 105,
+            "updateTime": 1397084927000
+        },
+        "driver": {
+            "name": "Unknown-0000090712400000 A688831 FH-602",
+            "personInformationId": 1084,
+            "activity": "Working",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 34,
+        "name": "A689841 FH-628",
+        "settings": {
+            "vcgVehicleUnitId": 34,
+            "addedDate": 1309272470000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 58.931123,
+            "lng": 17.935908,
+            "altitude": 0,
+            "heading": 27,
+            "updateTime": 1397191026000
+        },
+        "driver": {
+            "name": "Unknown-0000060463100000 A689841 FH-628",
+            "personInformationId": 7241,
+            "activity": "Driving",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 37,
+        "name": "A690078_FuelTest2",
+        "settings": {
+            "vcgVehicleUnitId": 37,
+            "addedDate": 1309272554000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.663436,
+            "lng": 11.928019,
+            "altitude": 0,
+            "heading": 141,
+            "updateTime": 1397036460000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 38,
+        "name": "P2930 A690097 FH-629",
+        "settings": {
+            "vcgVehicleUnitId": 38,
+            "addedDate": 1309272577000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 58.44827,
+            "lng": 13.253952,
+            "altitude": 0,
+            "heading": 0,
+            "updateTime": 1442830959000
+        },
+        "driver": {
+            "name": "Unknown-0000047584710010 P2930 A690097 FH-629",
+            "personInformationId": 10140,
+            "activity": "Working",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 39,
+        "name": "A690153 FH-631",
+        "settings": {
+            "vcgVehicleUnitId": 39,
+            "addedDate": 1309272606000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.735037,
+            "lng": 13.01965,
+            "altitude": 0,
+            "heading": 153,
+            "updateTime": 1397101374000
+        },
+        "driver": {
+            "name": "Unknown-0000063218100001 A690153 FH-631",
+            "personInformationId": 6921,
+            "activity": "Driving",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 44,
+        "name": "FH-486",
+        "settings": {
+            "vcgVehicleUnitId": 44,
+            "addedDate": 1309272796000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.723877,
+            "lng": 12.992889,
+            "altitude": 0,
+            "heading": 281,
+            "updateTime": 1351852343000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 49,
+        "name": "FH-544 A681225",
+        "settings": {
+            "vcgVehicleUnitId": 49,
+            "addedDate": 1309273082000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 58.355325,
+            "lng": 11.965584,
+            "altitude": 0,
+            "heading": 0,
+            "updateTime": 1420636590000
+        },
+        "driver": {
+            "name": "Unknown-0000089798789001 FH-544 A681225",
+            "personInformationId": 10294,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 50,
+        "name": "FH-632 A690901",
+        "settings": {
+            "vcgVehicleUnitId": 50,
+            "addedDate": 1309273168000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 55.619327,
+            "lng": 13.006646,
+            "altitude": 0,
+            "heading": 0,
+            "updateTime": 1397085073000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 54,
+        "name": "FH-667 A692370",
+        "settings": {
+            "vcgVehicleUnitId": 54,
+            "addedDate": 1309273260000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 63.380159,
+            "lng": 18.432718,
+            "altitude": 0,
+            "heading": 80,
+            "updateTime": 1434313537000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 55,
+        "name": "FH-668 B554595",
+        "settings": {
+            "vcgVehicleUnitId": 55,
+            "addedDate": 1309273293000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 36.815662,
+            "lng": -2.187622,
+            "altitude": 0,
+            "heading": 12,
+            "updateTime": 1309276327000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 56,
+        "name": "FH-677 A694073",
+        "settings": {
+            "vcgVehicleUnitId": 56,
+            "addedDate": 1309273318000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 60.168224,
+            "lng": 13.495872,
+            "altitude": 0,
+            "heading": 0,
+            "updateTime": 1397103953000
+        },
+        "driver": {
+            "name": "Unknown-0000034277290001 FH-677 A694073",
+            "personInformationId": 8767,
+            "activity": "Working",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 57,
+        "name": "FH-678 A694074",
+        "settings": {
+            "vcgVehicleUnitId": 57,
+            "addedDate": 1309273343000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.715986,
+            "lng": 11.915621,
+            "altitude": 0,
+            "heading": 0,
+            "updateTime": 1352451179000
+        },
+        "driver": {
+            "name": "ANDERS JÖRGEN JOHANSSON",
+            "personInformationId": 4966,
+            "activity": "Working",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 59,
+        "name": "FM-348 A694521",
+        "settings": {
+            "vcgVehicleUnitId": 59,
+            "addedDate": 1309273391000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 59.808419,
+            "lng": 30.398178,
+            "altitude": 0,
+            "heading": 53,
+            "updateTime": 1352133723000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 60,
+        "name": "Serviceskolan FMS",
+        "settings": {
+            "vcgVehicleUnitId": 60,
+            "addedDate": 1309273431000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 59.124941,
+            "lng": 12.913503,
+            "altitude": 0,
+            "heading": 68,
+            "updateTime": 1397112952000
+        },
+        "driver": {
+            "name": "Unknown-0000082485200000 Serviceskolan FMS",
+            "personInformationId": 6835,
+            "activity": "Working",
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 61,
+        "name": "VTEC_CCT",
+        "settings": {
+            "vcgVehicleUnitId": 61,
+            "addedDate": 1309273461000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.709913,
+            "lng": 11.94175,
+            "altitude": 0,
+            "heading": 81,
+            "updateTime": 1334734550000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 62,
+        "name": "FH-1927",
+        "settings": {
+            "vcgVehicleUnitId": 62,
+            "addedDate": 1309273483000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 66.342667,
+            "lng": 22.824538,
+            "altitude": 0,
+            "heading": 0,
+            "updateTime": 1439231837000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 66,
+        "name": "GPRS Box 5",
+        "settings": {
+            "vcgVehicleUnitId": 65,
+            "addedDate": 1309274129000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.715098,
+            "lng": 11.919153,
+            "altitude": 17,
+            "heading": 89,
+            "updateTime": 1309512006000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    },
+    {
+        "id": 84,
+        "name": "Lisa_TELAMATCRIG900107",
+        "settings": {
+            "vcgVehicleUnitId": 81,
+            "addedDate": 1309861338000,
+            "deletedDate": null
+        },
+        "features": {
+            "highFrequencyTrackingEnabled": false
+        },
+        "position": {
+            "lat": 57.714393,
+            "lng": 11.921401,
+            "altitude": 26,
+            "heading": 305,
+            "updateTime": 1389766603000
+        },
+        "driver": {
+            "name": null,
+            "personInformationId": null,
+            "activity": null,
+            "dtjActivity": null
+        }
+    }
+]

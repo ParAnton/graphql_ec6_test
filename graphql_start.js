@@ -2,16 +2,21 @@
 import express from 'express';
 import path from 'path';
 
+import http from 'http';
+
+import vehicleData from './graphqlserver/vehicles/vehicles';
+
 let app  = express();
 //let PORT = 3g000;
 let PORT = process.env.PORT
 
 app.use(express.static(path.resolve(__dirname, 'client')));
-
-app.post('/graphql', (req, res) => {
+                                      
+app.use('/vehicleGraphql', vehicleData);
+/*app.post('/graphql', (req, res) => {
     console.log('Hello');
   res.send('Hello!');
-});
+});*/
 
 app.get('/hej', (req, res) => {
     console.log('Helg');

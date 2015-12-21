@@ -9,6 +9,11 @@
     "async": "~0.2.8",
     "babel-core": "^6.3.13",
     "express": "~3.2.4",
+    "express-graphql": "^0.4.5",
+    "graphiql": "^0.4.5",
+    "graphql": "^0.4.14",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
     "socket.io": "~0.9.14"
   },
   "devDependencies": {

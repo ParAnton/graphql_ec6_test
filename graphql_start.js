@@ -11,12 +11,26 @@ let app  = express();
 let PORT = process.env.PORT
 
 app.use(express.static(path.resolve(__dirname, 'client')));
-                                      
-app.use('/vehicleGraphql', vehicleData);
+
+
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
+  next();
+});
+
+
+app.post('/vehicleGraphql', vehicleData);
+app.get('/vehicleGraphql', vehicleData);
 /*app.post('/graphql', (req, res) => {
     console.log('Hello');
   res.send('Hello!');
 });*/
+app.use('/vehicleGraphql',(req, res) => {
+    console.log('Helg');
+  res.send('pong');
+});
 
 app.get('/hej', (req, res) => {
     console.log('Helg');

@@ -73,6 +73,7 @@ let VehicleSchema = new GraphQLSchema({
           to: { type: GraphQLInt }
         },
         resolve: function (_, args) {
+          console.log('resolve allVehicles');
           if (args) {
             return vehicles.slice(args.from, args.to);
           } else {
